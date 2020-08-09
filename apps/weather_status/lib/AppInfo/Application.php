@@ -56,7 +56,7 @@ class Application extends App implements IBootstrap {
 		$dispatcher = $this->getContainer()->query(IEventDispatcher::class);
 		$dispatcher->addListener(RegisterWidgetEvent::class, function (Event $e) {
 			Util::addScript('weather_status', 'weather-status');
-        });
+		});
 	}
 
 	/**

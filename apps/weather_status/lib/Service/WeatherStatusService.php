@@ -40,8 +40,8 @@ use OCP\Http\Client\IClientService;
  */
 class WeatherStatusService {
 
-	const MODE_BROWSER_LOCATION = 1;
-	const MODE_MANUAL_LOCATION = 2;
+	public const MODE_BROWSER_LOCATION = 1;
+	public const MODE_MANUAL_LOCATION = 2;
 
 	/**
 	 * StatusService constructor.
