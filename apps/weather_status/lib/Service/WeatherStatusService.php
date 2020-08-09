@@ -39,7 +39,6 @@ use OCP\Http\Client\IClientService;
  * @package OCA\WeatherStatus\Service
  */
 class WeatherStatusService {
-
 	public const MODE_BROWSER_LOCATION = 1;
 	public const MODE_MANUAL_LOCATION = 2;
 
